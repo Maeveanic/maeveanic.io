@@ -144,6 +144,28 @@ table {
 	font-style: normal;
 }
 
+/**/
+
+.blur {
+	animation: blur 5s ease-in-out;
+}
+
+@keyframes blur {
+	0% { filter: blur(5px); }
+	100% { filter: blur(0px); }
+}
+
+.fade {
+  animation: fade 5s ease-in-out;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/**/
+
 h1 {
     font-family: 'Courier Prime', sans-serif;
 	font-size: 3em;
@@ -155,7 +177,7 @@ h1 {
 
 h2 {
     font-family: 'Courier Prime', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	max-width: 40%;
 	overflow: hidden;
 	word-wrap: break-word;
@@ -165,3 +187,8 @@ h2 {
 p {
     font-family: 'Courier Prime', sans-serif;
 	font-size: 1em;
+	max-width: 75%;
+	overflow: hidden;
+	word-wrap: break-word;
+	margin: 0 auto;
+}
