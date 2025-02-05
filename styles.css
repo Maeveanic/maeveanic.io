@@ -147,7 +147,7 @@ table {
 /**/
 
 .blur {
-	animation: blur 5s ease-in-out;
+	animation: blur 5s ease-in;
 }
 
 @keyframes blur {
@@ -156,7 +156,7 @@ table {
 }
 
 .fade {
-  animation: fade 10s ease-in-out;
+  animation: fade 5s ease-in;
 }
 
 @keyframes fade {
